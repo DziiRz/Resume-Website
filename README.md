@@ -40,7 +40,6 @@
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
     - [Usage](#usage)
-    - [Testing](#testing)
 
 ---
 
@@ -102,16 +101,6 @@ Run the project with:
 
 ```sh
 npm start
-```
-
-### Testing
-
-Resume-website uses the {__test_framework__} test framework. Run the test suite with:
-
-**Using [npm](https://www.npmjs.com/):**
-
-```sh
-npm test
 ```
 
 ---
