@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Light Theme Colors */
+  --background: #DCDAE5;
+  --foreground: #524d66;
+  --primary: #8462c2;
+  --primary-hover: #7052b2;
+  --muted: #928eab;
+  --muted-dark: #ab7f6c;
+  --accent: #b598be;
+  --card: #b4b7c8;
+  --card-foreground: #cabee4;
+  --secondary: #cfb39d;
+}
+
+.dark {
+  /* Dark Theme Colors */
+  --background: #1a1a2e;
+  --foreground: #e2e2e2;
+  --primary: #3fcbdd;
+  --primary-hover: #29d7eb;
+  --muted: #a0a0c0;
+  --muted-dark: #c09080;
+  --accent: #5ddaf5;
+  --card: #2a2a40;
+  --card-foreground: #cabee4;
+  --secondary: #dfc3ad;
+}
+
+@layer base {
+  html {
+    font-family: 'Syne', sans-serif;
+    background-color: var(--background);
+    color: var(--foreground);
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: var(--primary);
+    transition: color 0.3s ease;
+  }
+
+  section {
+    padding: 2rem 0;
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto px-4 sm:px-6 lg:px-8;
+    max-width: 1400px;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center rounded-full px-6 py-2 text-sm font-medium transition-colors focus:outline-none;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-white hover:bg-primary-hover;
+  }
+
+  .btn-outline {
+    @apply border border-primary text-primary hover:bg-primary hover:text-white;
+  }
+
+  .section-title {
+    @apply mb-10 text-3xl font-bold text-primary sm:text-4xl;
+  }
+
+  .subtitle {
+    @apply text-sm uppercase tracking-wider text-muted;
+  }
+}
+
+@layer utilities {
+  .purple-gradient {
+    background: linear-gradient(135deg, var(--primary), var(--accent));
+  }
+
+  .dark .purple-gradient {
+    background: linear-gradient(135deg, var(--primary), var(--accent));
+  }
+}
