@@ -45,7 +45,7 @@
 
 ## Overview
 
-**Resume-Website** is a modern portfolio tool designed for developers to showcase their skills and projects with elegance and efficiency. 
+**Resume-Website** is a modern portfolio designed to showcase skills and projects with elegance and efficiency. 
 
 **Why Resume-Website?**
 
@@ -55,8 +55,8 @@ This project aims to simplify the creation of visually stunning and interactive 
 - ⚡ **Streamlined Development:** Built with Vite and TypeScript, it enhances build speed and type safety, addressing common developer pain points.
 - 🌙 **Dynamic Theming:** Seamlessly switch between light and dark modes, improving user experience and accessibility.
 - ✅ **Code Quality Assurance:** ESLint configuration ensures adherence to coding standards, reducing bugs and enhancing maintainability.
-- ✨ **Engaging Animations:** Smooth transitions and animations enhance user interaction, making your portfolio more engaging.
-- 📂 **Comprehensive Showcase:** Effectively display projects and skills, helping developers present their work professionally.
+- ✨ **Engaging Animations:** Smooth transitions and animations enhance user interaction, making the portfolio more engaging.
+- 📂 **Comprehensive Showcase:** Effectively display projects and skills, presenting work professionally.
 
 ---
 
@@ -71,7 +71,7 @@ This project requires the following dependencies:
 
 ### Installation
 
-Build Resume-Website from the source and intsall dependencies:
+Build Resume-Website from the source and install dependencies:
 
 1. **Clone the repository:**
 
