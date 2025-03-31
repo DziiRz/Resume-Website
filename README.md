@@ -66,7 +66,7 @@ This project aims to simplify the creation of visually stunning and interactive 
 
 This project requires the following dependencies:
 
-- **Programming Language:** TypeScript
+- **Programming Language:** Javascript
 - **Package Manager:** Npm
 
 ### Installation
