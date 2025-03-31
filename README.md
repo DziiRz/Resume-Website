@@ -1,50 +1,122 @@
-# React + TypeScript + Vite
+<div id="top">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<!-- HEADER STYLE: CLASSIC -->
+<div align="center">
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# RESUME-WEBSITE
 
-## Expanding the ESLint configuration
+<em>Showcase Your Journey, Inspire Your Future</em>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<!-- BADGES -->
+<img src="https://img.shields.io/github/last-commit/DziiRz/Resume-Website?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+<img src="https://img.shields.io/github/languages/top/DziiRz/Resume-Website?style=flat&color=0080ff" alt="repo-top-language">
+<img src="https://img.shields.io/github/languages/count/DziiRz/Resume-Website?style=flat&color=0080ff" alt="repo-language-count">
 
-- Configure the top-level `parserOptions` property like this:
+<em>Built with the tools and technologies:</em>
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+<img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON">
+<img src="https://img.shields.io/badge/npm-CB3837.svg?style=flat&logo=npm&logoColor=white" alt="npm">
+<img src="https://img.shields.io/badge/Autoprefixer-DD3735.svg?style=flat&logo=Autoprefixer&logoColor=white" alt="Autoprefixer">
+<img src="https://img.shields.io/badge/PostCSS-DD3A0A.svg?style=flat&logo=PostCSS&logoColor=white" alt="PostCSS">
+<img src="https://img.shields.io/badge/Prettier-F7B93E.svg?style=flat&logo=Prettier&logoColor=black" alt="Prettier">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=JavaScript&logoColor=black" alt="JavaScript">
+<br>
+<img src="https://img.shields.io/badge/React-61DAFB.svg?style=flat&logo=React&logoColor=black" alt="React">
+<img src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=flat&logo=TypeScript&logoColor=white" alt="TypeScript">
+<img src="https://img.shields.io/badge/Vite-646CFF.svg?style=flat&logo=Vite&logoColor=white" alt="Vite">
+<img src="https://img.shields.io/badge/ESLint-4B32C3.svg?style=flat&logo=ESLint&logoColor=white" alt="ESLint">
+<img src="https://img.shields.io/badge/CSS-663399.svg?style=flat&logo=CSS&logoColor=white" alt="CSS">
+
+</div>
+<br>
+
+---
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [Testing](#testing)
+
+---
+
+## Overview
+
+**Resume-Website** is a modern portfolio tool designed for developers to showcase their skills and projects with elegance and efficiency. 
+
+**Why Resume-Website?**
+
+This project aims to simplify the creation of visually stunning and interactive portfolios. The core features include:
+
+- 🎨 **Responsive Design:** Tailwind CSS integration allows for rapid styling and customization, making it easy to create appealing interfaces.
+- ⚡ **Streamlined Development:** Built with Vite and TypeScript, it enhances build speed and type safety, addressing common developer pain points.
+- 🌙 **Dynamic Theming:** Seamlessly switch between light and dark modes, improving user experience and accessibility.
+- ✅ **Code Quality Assurance:** ESLint configuration ensures adherence to coding standards, reducing bugs and enhancing maintainability.
+- ✨ **Engaging Animations:** Smooth transitions and animations enhance user interaction, making your portfolio more engaging.
+- 📂 **Comprehensive Showcase:** Effectively display projects and skills, helping developers present their work professionally.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+This project requires the following dependencies:
+
+- **Programming Language:** TypeScript
+- **Package Manager:** Npm
+
+### Installation
+
+Build Resume-Website from the source and intsall dependencies:
+
+1. **Clone the repository:**
+
+    ```sh
+    ❯ git clone https://github.com/DziiRz/Resume-Website
+    ```
+
+2. **Navigate to the project directory:**
+
+    ```sh
+    ❯ cd Resume-Website
+    ```
+
+3. **Install the dependencies:**
+
+**Using [npm](https://www.npmjs.com/):**
+
+```sh
+❯ npm install
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Usage
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Run the project with:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+**Using [npm](https://www.npmjs.com/):**
+
+```sh
+npm start
 ```
+
+### Testing
+
+Resume-website uses the {__test_framework__} test framework. Run the test suite with:
+
+**Using [npm](https://www.npmjs.com/):**
+
+```sh
+npm test
+```
+
+---
+
+<div align="left"><a href="#top">⬆ Return</a></div>
+
+---
+
