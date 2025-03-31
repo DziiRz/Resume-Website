@@ -214,7 +214,7 @@ export const Header = () => {
 
       {/* Mobile Menu with smooth transition */}
       <motion.div
-        className="container overflow-hidden md:hidden"
+        className="container overflow-hidden md:hidden absolute top-16 left-0 right-0 bg-background/95 backdrop-blur-md shadow-sm"
         initial={{ height: 0, opacity: 0 }}
         animate={{
           height: isMenuOpen ? 'auto' : 0,
@@ -247,26 +247,35 @@ export const Header = () => {
             </motion.div>
           ))}
           <motion.div
-            className="flex items-center space-x-2"
-            initial={{ x: -20, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ delay: 0.5 }}
+            className="flex items-center space-x-2 pt-2"
+            whileHover={{ x: 5 }}
+            transition={{ type: "spring", stiffness: 400 }}
           >
-            <ThemeToggle />
-            <span className="text-sm text-foreground transition-colors">Toggle theme</span>
+            <a 
+              href="https://www.linkedin.com/in/ryder-osborn"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-8 h-8"
+            >
+              <img 
+                src="/img/icons/linkedin.png" 
+                alt="LinkedIn" 
+                className="w-full h-full"
+              />
+            </a>
+            <a 
+              href="https://github.com/DziiRz?tab=repositories"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-5 h-5"
+            >
+              <img 
+                src="/img/icons/github.png" 
+                alt="GitHub" 
+                className="w-full h-full"
+              />
+            </a>
           </motion.div>
-          <motion.a
-            href="mailto:ryderosborn@hotmail.com?subject=Message%20from%20your%20site"
-            className="btn btn-primary transition-all duration-300 ease-in-out w-full"
-            onClick={() => setIsMenuOpen(false)}
-            initial={{ y: 20, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ delay: 0.6 }}
-            whileHover={{ scale: 1.03 }}
-            whileTap={{ scale: 0.97 }}
-          >
-            Get in Touch
-          </motion.a>
         </div>
       </motion.div>
     </header>
