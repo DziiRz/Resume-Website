@@ -180,7 +180,7 @@ export const Header = () => {
           {/* Get in Touch Button */}
           <motion.a
             href="mailto:ryderosborn@hotmail.com?subject=You're%20Hired!"
-            className="btn btn-primary text-xs py-1.5 px-3 whitespace-nowrap transition-all duration-300 ease-in-out"
+            className="hidden md:inline-flex btn btn-primary text-xs py-1.5 px-3 whitespace-nowrap transition-all duration-300 ease-in-out"
             whileHover={{
               scale: 1.05,
               boxShadow: "0 5px 15px rgba(0,0,0,0.1)"
